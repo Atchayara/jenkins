@@ -26,16 +26,18 @@ pipeline {
 
 post{
       sucess{
-        emailtext subject: 'Build successfull',
-                  Body:'The Build is successfull',
-                  to: 'atchayasara@gmail.com'
-                  attachlog: true
+        mail to: 'atchayasara@gmail.com'
+             subject: 'Build successfull',
+             Body:'The Build is successfull',
+                  
+                  
         }
       failure{
-        emailtext subject: 'Build failed',
-                  Body:'The Build is failure',
-                  to: 'atchayasara@gmail.com'
-                  attachlog: true
+        mail  to: 'atchayasara@gmail.com'
+              subject: 'Build failed',
+              Body:'The Build is failure',
+                 
+                
       } 
 }
 
