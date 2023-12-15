@@ -25,7 +25,7 @@ pipeline {
   }
 
 post{
-      sucess{
+      success{
         mail to: "atchayasara@gmail.com",
              subject: "Build successfull",
              body:"The Build is successfull"
