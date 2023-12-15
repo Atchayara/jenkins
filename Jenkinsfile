@@ -28,14 +28,14 @@ post{
       sucess{
         mail to: "atchayasara@gmail.com",
              subject: "Build successfull",
-             Body:"The Build is successfull"
+             body:"The Build is successfull"
                   
                   
         }
       failure{
         mail  to: "atchayasara@gmail.com",
               subject: "Build failed",
-              Body:"The Build is failure"
+              body:"The Build is failure"
                  
                 
       } 
